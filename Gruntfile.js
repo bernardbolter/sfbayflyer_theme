@@ -15,6 +15,7 @@ module.exports = function(grunt) {
         src: [
           '_/js/modernizer.js',
           '_/js/picturefill.js',
+          '_/js/instafeed.js',
           '_/js/plugins.js',
           '_/js/_myscripts.js'
         ],
@@ -42,7 +43,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['Gruntfile.js','_/js/*.js'],
-        tasks: ['concat','less'],
+        tasks: ['concat','uglify'],
       },
       less: {
         files: '_/less/*.less',

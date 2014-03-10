@@ -1650,7 +1650,7 @@ h1 span {
   overflow: hidden;
   padding: 2.5%;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1151px) {
   .advanced_tablet_wrap {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -1744,7 +1744,7 @@ h1 span {
   width: 100%;
   display: block;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1151px) {
   #about img {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -1837,6 +1837,148 @@ h1 span {
 }
 .about_text_margin {
   padding-top: 5%;
+}
+.insta-wrapper {
+  margin: 0px auto;
+}
+.insta_body_wrap {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+}
+@media only screen and (min-width: 1151px) {
+  .insta_body_wrap {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+.insta {
+  margin: 0px auto;
+}
+.insta_header {
+  height: 60px;
+  background: #333333 url(img/left_diagonal.png) repeat;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.insta_header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #ededed;
+  text-shadow: 2px 2px 2px black;
+  margin: 10px 10% 0 0;
+  font-family: "Droid Sans", sans-serif;
+}
+.insta_out {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+}
+.insta_in {
+  width: 3000px;
+}
+.insta_logo a:hover {
+  text-decoration: underline;
+}
+.insta_photo_box {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+.insta_feed {
+  width: 100%;
+  display: block;
+}
+.insta_cap {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  margin: 0;
+  font-family: 'Droid Sans', sans-serif;
+  color: #111;
+}
+.testa-wrapper {
+  margin: 0px auto;
+}
+.testa_body_wrap {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+}
+@media only screen and (min-width: 1151px) {
+  .testa_body_wrap {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+.testa {
+  margin: 0px auto;
+}
+.testa_header {
+  height: 60px;
+  background: #333333 url(img/left_diagonal.png) repeat;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.testa_header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #ededed;
+  text-shadow: 2px 2px 2px black;
+  margin: 10px 10% 0 0;
+  font-family: "Droid Sans", sans-serif;
+}
+.testa_box {
+  float: left;
+  width: 46%;
+  margin: 2% 2% 0 2%;
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .testa_box {
+    width: 80%;
+    margin: 2% 10% 0;
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .testa_box {
+    width: 96%;
+  }
+}
+.testa_box p {
+  background: rgba(204, 188, 171, 0.7);
+  padding: 4%;
+  text-indent: 40px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border: 1px solid #666;
+  text-shadow: 1px 1px 1px #666;
+}
+.testa_box h3 {
+  color: #555;
+  font-size: 22px;
+  text-align: right;
+  font-weight: bold;
+  margin: 0 30px 0 0;
+  letter-spacing: .05em;
+  padding: 0;
 }
 /* CONTACT
 ================================================== */
@@ -2033,7 +2175,7 @@ h1 span {
   overflow: hidden;
   padding: 2.5%;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1151px) {
   .ground_tablet_wrap {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -2573,7 +2715,7 @@ h1 span {
   max-width: 1150px;
   margin: 0 auto;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1151px) {
   .nivoSlider {
     border-right: 1px solid black;
     border-left: 1px solid black;

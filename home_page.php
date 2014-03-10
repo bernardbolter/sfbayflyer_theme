@@ -249,6 +249,39 @@ Template Name: Home Page
             </div> <!-- #about_trainging -->
         </div> <!-- #about-wrapper -->
 
+        <div class="insta_wrapper">
+            <div class="insta">
+                <div class="insta_header">
+                     <h1>INSTAGRAM</h1>
+                </div> <!-- insta_header -->
+                <div class="insta_body_wrap clearfix">
+                    <div class="insta_out">
+                        <div id="instafeed" class="insta_in"></div>
+                    </div>
+                </div> <!-- insta_body_wrap -->
+            </div> <!-- insta -->
+        </div> <!-- insta_wrapper -->
+
+        <div class="testa_wrapper">
+            <div class="testa">
+                <div class="testa_header">
+                     <h1>TESTIMONIALS</h1>
+                </div> <!-- testa_header -->
+                <div class="testa_body_wrap clearfix">
+                    <div class="testa_out">
+                        <div class="testa_box">
+                            <p>Flight training should be a fun experience and something you'll remember for the rest of your life so choosing the right person to take you from enthusiast to pilot is an important decision to make. &nbsp;Aaron brings a wealth of experience to your training which enriches it beyond just learning procedures, or memorizing chart symbols. &nbsp;He makes himself available to suit your schedule so you really feel that you're progressing towards your license or next rating at your pace. &nbsp;But, most importantly, it was a lot of fun!</p>
+                            <h3>- CIARAN</h3>                            
+                        </div> <!-- testa_box -->
+                        <div class="testa_box">
+                            <p>Go fly with Aaron! &nbsp;&nbsp;Aaron is the CFI who led me through my private pilot certificate. &nbsp;On the ground, he is patient, knowledgeable, well-prepared, and willing to accommodate his students' schedule. &nbsp;In the sky, he is experienced in handling various types of aircraft in all types of situations so that you'll have the confidence that he's got your back. &nbsp;He observes students' well and adjusts pace accordingly. &nbsp;Last but not least, he has integrity so that you don't have to worry about your instructor procrastinating just to get more money from you.</p>
+                            <h3>- HARVEY</h3>                            
+                        </div> <!-- testa_box -->
+                    </div> <!-- testa_out -->
+                </div> <!-- testa_body_wrap -->
+            </div> <!-- testa -->
+        </div> <!-- testa_wrapper -->
+
         <div class="contact-wrapper">
             <div class="contact_training">
                 <span id="contact" class="anchor"></span>
@@ -362,13 +395,6 @@ Template Name: Home Page
             </div><!-- #ground_training -->
         </div> <!-- .ground-wrapper -->
 
-
-
-        <div class="footer-container">
-            <footer class="wrapper">
-                
-            </footer>
-        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
         <script>

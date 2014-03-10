@@ -12,7 +12,7 @@ if (typeof Object.create !== 'function') {
         function F() {}
         F.prototype = obj;
         return new F();
-    };
+    }; 
 }
 
 (function($, window, document, undefined) {

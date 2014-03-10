@@ -1,0 +1,108 @@
+/* ABOUT
+================================================== */
+
+.about-wrapper {
+	top: 61px;
+}
+
+#about img {
+	width: 100%;
+	display: block;
+
+	@media @desktop-xl {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	}
+}
+
+.about_header {
+	height: 60px;
+	background: #333 url(img/left_diagonal.png) repeat;
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.about_header h1 {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-align: right;
+	color: #ededed;
+	text-shadow: 2px 2px 2px black;
+	margin: 10px 10% 0 0;
+	font-family: "Droid Sans", sans-serif;
+}
+
+.about_box {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 50%;
+	background: rgba(255,255,255,0.85);
+	display: block;
+	padding: 0 2.5%;
+
+	@media @desktop-1 {
+		width: 65%;
+	}
+
+	@media @tablet {
+		width: 66%;
+	}
+
+	@media @mobile {
+		position: relative;
+		display: block;
+		top: auto;
+		left: auto;
+		width: 93%;
+		padding: 0 3.5%;
+	}
+}
+
+.about_box_wrap {
+	width: 100%;
+	max-width: 1150px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.about_name {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 40px;
+	color: #333;
+	border-bottom: 1px solid black;
+	font-weight: 200;
+	padding-top: 5%;
+}
+
+.about_info {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	line-height: 14px; 
+}
+
+.about_text {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #111;
+	font-weight: 400;
+	text-align: justify;
+
+	@media @tablet {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}
+
+.about_text_margin {
+	padding-top: 5%;
+}

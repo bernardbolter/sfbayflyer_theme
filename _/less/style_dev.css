@@ -6,20 +6,373 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 6/20/2012
 */
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .column,
+.container .columns {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.row {
+  margin-bottom: 20px;
+}
+/* Nested Column Classes */
+.column.alpha,
+.columns.alpha {
+  margin-left: 0;
+}
+.column.omega,
+.columns.omega {
+  margin-right: 0;
+}
+/* Base Grid */
+.container .one.column,
+.container .one.columns {
+  width: 40px;
+}
+.container .two.columns {
+  width: 100px;
+}
+.container .three.columns {
+  width: 160px;
+}
+.container .four.columns {
+  width: 220px;
+}
+.container .five.columns {
+  width: 280px;
+}
+.container .six.columns {
+  width: 340px;
+}
+.container .seven.columns {
+  width: 400px;
+}
+.container .eight.columns {
+  width: 460px;
+}
+.container .nine.columns {
+  width: 520px;
+}
+.container .ten.columns {
+  width: 580px;
+}
+.container .eleven.columns {
+  width: 640px;
+}
+.container .twelve.columns {
+  width: 700px;
+}
+.container .thirteen.columns {
+  width: 760px;
+}
+.container .fourteen.columns {
+  width: 820px;
+}
+.container .fifteen.columns {
+  width: 880px;
+}
+.container .sixteen.columns {
+  width: 940px;
+}
+.container .one-third.column {
+  width: 300px;
+}
+.container .two-thirds.column {
+  width: 620px;
+}
+/* Offsets */
+.container .offset-by-one {
+  padding-left: 60px;
+}
+.container .offset-by-two {
+  padding-left: 120px;
+}
+.container .offset-by-three {
+  padding-left: 180px;
+}
+.container .offset-by-four {
+  padding-left: 240px;
+}
+.container .offset-by-five {
+  padding-left: 300px;
+}
+.container .offset-by-six {
+  padding-left: 360px;
+}
+.container .offset-by-seven {
+  padding-left: 420px;
+}
+.container .offset-by-eight {
+  padding-left: 480px;
+}
+.container .offset-by-nine {
+  padding-left: 540px;
+}
+.container .offset-by-ten {
+  padding-left: 600px;
+}
+.container .offset-by-eleven {
+  padding-left: 660px;
+}
+.container .offset-by-twelve {
+  padding-left: 720px;
+}
+.container .offset-by-thirteen {
+  padding-left: 780px;
+}
+.container .offset-by-fourteen {
+  padding-left: 840px;
+}
+.container .offset-by-fifteen {
+  padding-left: 900px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 768px;
+  }
+  .container .column,
+  .container .columns {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .column.alpha,
+  .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .column.omega,
+  .columns.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container .one.column,
+  .container .one.columns {
+    width: 28px;
+  }
+  .container .two.columns {
+    width: 76px;
+  }
+  .container .three.columns {
+    width: 124px;
+  }
+  .container .four.columns {
+    width: 172px;
+  }
+  .container .five.columns {
+    width: 220px;
+  }
+  .container .six.columns {
+    width: 268px;
+  }
+  .container .seven.columns {
+    width: 316px;
+  }
+  .container .eight.columns {
+    width: 364px;
+  }
+  .container .nine.columns {
+    width: 412px;
+  }
+  .container .ten.columns {
+    width: 460px;
+  }
+  .container .eleven.columns {
+    width: 508px;
+  }
+  .container .twelve.columns {
+    width: 556px;
+  }
+  .container .thirteen.columns {
+    width: 604px;
+  }
+  .container .fourteen.columns {
+    width: 652px;
+  }
+  .container .fifteen.columns {
+    width: 700px;
+  }
+  .container .sixteen.columns {
+    width: 748px;
+  }
+  .container .one-third.column {
+    width: 236px;
+  }
+  .container .two-thirds.column {
+    width: 492px;
+  }
+  /* Offsets */
+  .container .offset-by-one {
+    padding-left: 48px;
+  }
+  .container .offset-by-two {
+    padding-left: 96px;
+  }
+  .container .offset-by-three {
+    padding-left: 144px;
+  }
+  .container .offset-by-four {
+    padding-left: 192px;
+  }
+  .container .offset-by-five {
+    padding-left: 240px;
+  }
+  .container .offset-by-six {
+    padding-left: 288px;
+  }
+  .container .offset-by-seven {
+    padding-left: 336px;
+  }
+  .container .offset-by-eight {
+    padding-left: 384px;
+  }
+  .container .offset-by-nine {
+    padding-left: 432px;
+  }
+  .container .offset-by-ten {
+    padding-left: 480px;
+  }
+  .container .offset-by-eleven {
+    padding-left: 528px;
+  }
+  .container .offset-by-twelve {
+    padding-left: 576px;
+  }
+  .container .offset-by-thirteen {
+    padding-left: 624px;
+  }
+  .container .offset-by-fourteen {
+    padding-left: 672px;
+  }
+  .container .offset-by-fifteen {
+    padding-left: 720px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  .container .columns,
+  .container .column {
+    margin: 0;
+  }
+  .container .one.column,
+  .container .one.columns,
+  .container .two.columns,
+  .container .three.columns,
+  .container .four.columns,
+  .container .five.columns,
+  .container .six.columns,
+  .container .seven.columns,
+  .container .eight.columns,
+  .container .nine.columns,
+  .container .ten.columns,
+  .container .eleven.columns,
+  .container .twelve.columns,
+  .container .thirteen.columns,
+  .container .fourteen.columns,
+  .container .fifteen.columns,
+  .container .sixteen.columns,
+  .container .one-third.column,
+  .container .two-thirds.column {
+    width: 300px;
+  }
+  /* Offsets */
+  .container .offset-by-one,
+  .container .offset-by-two,
+  .container .offset-by-three,
+  .container .offset-by-four,
+  .container .offset-by-five,
+  .container .offset-by-six,
+  .container .offset-by-seven,
+  .container .offset-by-eight,
+  .container .offset-by-nine,
+  .container .offset-by-ten,
+  .container .offset-by-eleven,
+  .container .offset-by-twelve,
+  .container .offset-by-thirteen,
+  .container .offset-by-fourteen,
+  .container .offset-by-fifteen {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
+  }
+  .container .columns,
+  .container .column {
+    margin: 0;
+  }
+  .container .one.column,
+  .container .one.columns,
+  .container .two.columns,
+  .container .three.columns,
+  .container .four.columns,
+  .container .five.columns,
+  .container .six.columns,
+  .container .seven.columns,
+  .container .eight.columns,
+  .container .nine.columns,
+  .container .ten.columns,
+  .container .eleven.columns,
+  .container .twelve.columns,
+  .container .thirteen.columns,
+  .container .fourteen.columns,
+  .container .fifteen.columns,
+  .container .sixteen.columns,
+  .container .one-third.column,
+  .container .two-thirds.column {
+    width: 420px;
+  }
+}
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+.row,
+.clearfix {
+  zoom: 1;
+}
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
 html,
 body,
 div,
@@ -510,7 +863,7 @@ legend span {
 .header-wrapper {
   width: 100%;
   height: 60px;
-  background: transparent url('../img/left_diagonal.png') repeat;
+  background: transparent url('img/left_diagonal.png') repeat;
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 2;
@@ -531,7 +884,7 @@ legend span {
 @media only screen and (max-width: 600px) {
   .header-wrapper header.container {
     width: 100%;
-    background: transparent url(../img/left_diagonal.png) repeat;
+    background: transparent url(img/left_diagonal.png) repeat;
     border-bottom: 1px solid black;
   }
 }
@@ -540,7 +893,7 @@ a.logo {
   position: fixed;
   pading-left: 20px;
   top: 17px;
-  background: transparent url('../img/logo.png') no-repeat;
+  background: transparent url('img/logo.png') no-repeat;
   overflow: hidden;
   width: 178px;
   height: 91px;
@@ -549,7 +902,7 @@ a.logo {
 }
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   a.logo {
-    background: #ccbcab url('../img/logo_2.png') no-repeat 50% 11px;
+    background: #ccbcab url('img/logo_2.png') no-repeat 50% 11px;
     width: 40%;
     height: 100px;
     -webkit-border-radius: 0px 0px 20px 0px;
@@ -568,7 +921,7 @@ a.logo {
     line-height: 0;
     vertical-align: middle;
     background-size: 50%;
-    background: #ccbcab url('../img/logo_2.png') no-repeat 50% 50%;
+    background: #ccbcab url('img/logo_2.png') no-repeat 50% 50%;
     float: left;
     height: 100px;
     top: 0;
@@ -645,7 +998,7 @@ a.logo {
     font-size: 20px;
     text-shadow: 1px 1px 1px #333;
     padding: 14px 0;
-    background: transparent url(../img/left_diagonal.png) repeat;
+    background: transparent url(img/left_diagonal.png) repeat;
     border-bottom: 1px solid black;
     margin: 0;
     position: relative;
@@ -681,7 +1034,7 @@ a.logo {
 }
 @media only screen and (max-width: 600px) {
   #menu-icon {
-    background: transparent url(../img/menu-item.png) no-repeat 50% 50px;
+    background: transparent url(img/menu-item.png) no-repeat 50% 50px;
     width: 30%;
     margin: 0;
     padding: 0;
@@ -696,7 +1049,7 @@ a.logo {
 ================================================== */
 .home-wrapper {
   padding-top: 61px;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
 }
 @media only screen and (max-width: 600px) {
   .home-wrapper {
@@ -735,7 +1088,7 @@ a.logo {
   }
 }
 .home-window {
-  background: transparent url(../img/dirt_plane.jpg) no-repeat 100%;
+  background: transparent url(img/dirt_plane.jpg) no-repeat 100%;
   display: block;
 }
 #home h2 {
@@ -915,7 +1268,7 @@ a.logo {
 ================================================== */
 .fly-wrapper {
   margin: 0px auto;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
 }
 .fly-wrapper img {
   width: 100%;
@@ -929,7 +1282,7 @@ a.logo {
 }
 .learn_header {
   height: 60px;
-  background: #333333 url(../img/right_diagonal.png) repeat;
+  background: #333333 url(img/right_diagonal.png) repeat;
   width: 100%;
   display: block;
   border-bottom: 1px solid black;
@@ -1220,7 +1573,7 @@ h1 span {
 @media only screen and (max-width: 600px) {
   #slider_mobile {
     display: block;
-    background: #eeeeee url(../img/right_diagonal_light.png) repeat;
+    background: #eeeeee url(img/right_diagonal_light.png) repeat;
     overflow: hidden;
   }
 }
@@ -1254,7 +1607,7 @@ h1 span {
 }
 .advanced_header {
   height: 60px;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
   width: 100%;
   display: block;
   border-bottom: 1px solid black;
@@ -1292,7 +1645,7 @@ h1 span {
 .advanced_tablet_wrap {
   width: 95%;
   max-width: 1150px;
-  background: url(../img/right_diagonal_orange.png) #ffffff;
+  background: url(img/right_diagonal_orange.png) #ffffff;
   display: block;
   overflow: hidden;
   padding: 2.5%;
@@ -1399,7 +1752,7 @@ h1 span {
 }
 .about_header {
   height: 60px;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
   width: 100%;
   display: block;
   border-bottom: 1px solid black;
@@ -1489,7 +1842,7 @@ h1 span {
 ================================================== */
 .contact-wrapper {
   margin: 0px auto;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
 }
 .contact_img_container {
   max-width: 1150px;
@@ -1501,7 +1854,7 @@ h1 span {
 }
 .contact_header {
   height: 60px;
-  background: #333333 url(../img/left_diagonal.png) repeat;
+  background: #333333 url(img/left_diagonal.png) repeat;
   width: 100%;
   display: block;
   border-bottom: 1px solid black;
@@ -1643,6 +1996,49 @@ h1 span {
 }
 /* GROUND SCHOOL
 ================================================== */
+.ground-wrapper {
+  margin: 0px auto;
+}
+.ground_img_container {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+.ground_training {
+  margin: 0px auto;
+}
+.ground_header {
+  height: 60px;
+  background: #333333 url(img/left_diagonal.png) repeat;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.ground_header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #ededed;
+  text-shadow: 2px 2px 2px black;
+  margin: 10px 10% 0 0;
+  font-family: "Droid Sans", sans-serif;
+}
+.ground_tablet_wrap {
+  width: 95%;
+  max-width: 1150px;
+  background: url(img/right_diagonal_orange.png) #ffffff;
+  display: block;
+  overflow: hidden;
+  padding: 2.5%;
+}
+@media only screen and (min-width: 1170px) {
+  .ground_tablet_wrap {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
 .ground_top {
   font-family: "Droid Serif", serif;
   font-weight: 400;
@@ -1815,7 +2211,7 @@ h1 span {
 }
 .ground_instructor_left {
   display: block;
-  background: url(../img/aaron_ground.jpg) no-repeat 50% 50%;
+  background: url(img/aaron_ground.jpg) no-repeat 50% 50%;
   width: 40%;
   margin: 3% 0 3% 10%;
   float: left;
@@ -2287,7 +2683,7 @@ Supports Thumbs: true
 */
 .theme-default .nivoSlider {
   position: relative;
-  background: #ffffff url(../img/loading.gif) no-repeat 50% 50%;
+  background: #ffffff url(img/loading.gif) no-repeat 50% 50%;
 }
 .theme-default .nivoSlider img {
   position: absolute;
@@ -2307,7 +2703,7 @@ Supports Thumbs: true
   display: inline-block;
   width: 22px;
   height: 22px;
-  background: url(../img/bullets.png) no-repeat;
+  background: url(img/bullets.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   margin: 0 2px;
@@ -2319,7 +2715,7 @@ Supports Thumbs: true
   display: block;
   width: 30px;
   height: 30px;
-  background: url(../img/arrows.png) no-repeat;
+  background: url(img/arrows.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   opacity: 0;

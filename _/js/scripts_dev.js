@@ -74,7 +74,7 @@ if (typeof Object.create !== 'function') {
         function F() {}
         F.prototype = obj;
         return new F();
-    };
+    }; 
 }
 
 (function($, window, document, undefined) {
@@ -924,11 +924,6 @@ if (typeof Object.create !== 'function') {
     $.fn._reverse = [].reverse;
     
 })(jQuery);
-// @codekit-prepend "jquery-1.10.1.min.js"
-// @codekit-prepend "modernizr-2.6.2-respond-1.1.0.min.js"
-// @codekit-prepend "plugins.js"
-// @codekit-prepend "picturefill.js"
-
 $(document).ready(function() {
 	$('#menu-icon').click(function(){
 		$('.navlist').slideToggle(200);

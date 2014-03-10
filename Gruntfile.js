@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['Gruntfile.js','_/js/*.js'],
-        tasks: ['jshint','concat','less'],
+        tasks: ['concat','less'],
       },
       less: {
         files: '_/less/*.less',

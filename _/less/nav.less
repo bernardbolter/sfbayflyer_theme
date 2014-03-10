@@ -1,0 +1,156 @@
+a.logo {
+	display: block;
+	position: fixed;
+	pading-left: 20px;
+	top: 17px;
+	background: transparent url('img/logo.png') no-repeat;
+	overflow: hidden;
+	width: 178px;
+	height: 91px;
+	text-indent: 100%;
+	white-space: nowrap;
+
+	@media @tablet {
+		background: #ccbcab url('img/logo_2.png') no-repeat 50% 11px;
+		width: 40%;
+		height: 100px;
+		-webkit-border-radius: 0px 0px 20px 0px;
+ 		-moz-border-radius: 0px 0px 20px 0px;
+  		border-radius: 0px 0px 20px 0px;
+  		top: 0;
+  		border-right: 1px solid black;
+  		border-bottom: 1px solid black;
+	}
+
+	@media @mobile {
+		display: inline-block;
+		width: 70%;
+		font-size: 0;
+		line-height: 0;
+		vertical-align: middle;
+		background-size: 50%;
+		background: #ccbcab url('img/logo_2.png') no-repeat 50% 50%;
+		float: left;
+		height: 100px;
+		top: 0;
+		position: absolute;
+		-webkit-border-radius: 0px 0px 20px 0px;
+ 		-moz-border-radius: 0px 0px 20px 0px;
+  		border-radius: 0px 0px 20px 0px;
+  		border-bottom: 1px solid black;
+  		border-right: 1px solid black;
+	}
+}
+
+.navlist {
+	float: right;
+	display: block;
+	margin-top: 22px;
+
+	@media @tablet {
+		margin: 0;
+		width: 60%;
+		float: right;
+	}
+
+	@media @mobile {
+		display: none;
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		margin: 1px 0 0 0;
+		padding: 0;
+	}
+}
+
+.navlist li {
+	display: inline-block;
+
+	@media @tablet {
+		display: block;
+		width: 100%;
+	}
+
+	@media @mobile {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.navlist li a {
+	font: normal small-caps 700 15px/18px 'Droid Sans', Helvetica, sans-serif;
+	text-decoration: none;
+	color: #ededed;
+	position: relative;
+	text-shadow: 2px 2px 0px #444;
+	letter-spacing: 1px;
+	padding: 5px 20px;
+
+	@media @tablet {
+		width: 60%;
+		float: left;
+		padding: 0 0 0 20px;
+		display: block;
+		height: 30%;
+		line-height: 30px;
+		margin-left: 1px;
+	}
+
+	@media @mobile {
+		width: 100%;
+		font-size: 20px;
+		text-shadow: 1px 1px 1px #333;
+		padding: 14px 0;
+		background: transparent url(img/left_diagonal.png) repeat;
+		border-bottom: 1px solid black;
+		margin: 0;
+		position: relative;
+		text-align: center;
+		display: block;
+	}
+}
+
+.navlist li a.last {
+		@media @tablet {
+		width: 25%;
+		float: right;
+		padding: 0 20px 0 0;
+		display: block;
+		height: 30%;
+		line-height: 30px;
+		text-align: right;
+	}
+}
+
+.navlist li a.second-last {
+		@media @tablet {
+		margin-top: -30px;
+	}
+}
+
+.navlist li a:hover {
+	text-shadow: 2.5px 2px 0px #000;
+	color: white;
+	background: grey;
+}
+
+/* DROP DOWN
+================================================== */
+
+#menu-icon {
+	display: none;
+
+	@media @mobile {
+		background: transparent url(img/menu-item.png) no-repeat 50% 50px;
+		width: 30%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		overflow: hidden;
+		height: 100px;
+		float: right;
+		z-index: 10;
+	}
+}

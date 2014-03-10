@@ -279,18 +279,18 @@ Template Name: Home Page
                         </a>
                     </div>
 
-                </div> <!-- .contact_img_container -->
+                </div> <!-- .contact_container -->
             </div> <!-- #contact_trainging -->
         </div> <!-- .contact-wrapper -->
 
-        <div class="advanced-wrapper">
-            <div class="advanced_training">
+        <div class="ground-wrapper">
+            <div class="ground_training">
                 <span id="groundschools" class="anchor"></span>
-                <div class="advanced_header">
+                <div class="ground_header">
                     <h1>GROUND SCHOOLS</h1>
-                </div> <!--learn_header -->
-                <div class="advanced_img_container">    
-                    <div class="advanced_tablet_wrap">
+                </div> <!--ground_header -->
+                <div class="ground_img_container">    
+                    <div class="ground_tablet_wrap">
                         <p class="ground_top">In-Person | Classroom | FAA Pilot</p>
                         <p class="ground_title">GROUND SCHOOLS</p>
                         <p class="ground_airport">Palo Alto Airport</p>
@@ -356,11 +356,11 @@ Template Name: Home Page
                                 <p class="ground_sign_up_text"><span class="bold">(415) 683-3628 | Aaron@AdvancedFlyers.com</span></p>
                                 <p class="ground_sign_up_text">or use the contact form on this website - <a href="#contact">here</a></p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </div> 
+                    </div> <!-- .ground_tablet -->
+                </div> <!-- .ground_img_container -->
+            </div><!-- #ground_training -->
+        </div> <!-- .ground-wrapper -->
 
 
 

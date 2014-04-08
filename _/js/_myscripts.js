@@ -42,3 +42,16 @@ $(window).load(function() {
 				$this.html($this.text().replace(/(?:\s|^)(?:#(?!(?:\d+|\w+?_|_\w+?)(?:\s|$)))(\w+)(?=\s|$)/g, '<span style="color: #7a7065;">$&</span>'));
 	});
 });
+
+$(document).ready(function(e) {
+
+$('#testa_more_1').find('a').on('click', function(e){
+	e.preventDefault();
+
+	$('#testa_ajax').load('http://local.sfbayflyer.dev/wp-content/themes/sfbayflyer2014_theme/parts/testas_two.html');
+});
+});
+
+
+
+

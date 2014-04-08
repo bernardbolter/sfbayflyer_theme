@@ -267,17 +267,22 @@ Template Name: Home Page
                 <div class="testa_header">
                      <h1>TESTIMONIALS</h1>
                 </div> <!-- testa_header -->
-                <div class="testa_body_wrap clearfix">
-                    <div class="testa_out">
+                <div id="testa_ajax" class="testa_body_wrap clearfix">
+                    <div class="testa_out clearfix">
                         <div class="testa_box">
+                            <div class="testa_head"><span class="icon-user"></span></div>
                             <p>Flight training should be a fun experience and something you'll remember for the rest of your life so choosing the right person to take you from enthusiast to pilot is an important decision to make. &nbsp;Aaron brings a wealth of experience to your training which enriches it beyond just learning procedures, or memorizing chart symbols. &nbsp;He makes himself available to suit your schedule so you really feel that you're progressing towards your license or next rating at your pace. &nbsp;But, most importantly, it was a lot of fun!</p>
-                            <h3>- CIARAN</h3>                            
+                            <h3>- Ciaran Regan, <span class="testa_small">Private Pilot 2013</span></h3>                            
                         </div> <!-- testa_box -->
                         <div class="testa_box">
+                            <div class="testa_head"><span class="icon-user"></span></div>
                             <p>Go fly with Aaron! &nbsp;&nbsp;Aaron is the CFI who led me through my private pilot certificate. &nbsp;On the ground, he is patient, knowledgeable, well-prepared, and willing to accommodate his students' schedule. &nbsp;In the sky, he is experienced in handling various types of aircraft in all types of situations so that you'll have the confidence that he's got your back. &nbsp;He observes students' well and adjusts pace accordingly. &nbsp;Last but not least, he has integrity so that you don't have to worry about your instructor procrastinating just to get more money from you.</p>
-                            <h3>- HARVEY</h3>                            
+                            <h3>- Harvey Chen, <span class="testa_small">Private Pilot 2012</span></h3>                            
                         </div> <!-- testa_box -->
                     </div> <!-- testa_out -->
+                    <div class="testa_links">
+                        <p id="testa_more_1"><a href="#"><span class="icon-arrow-right"></span>More Testimonials</a></p>
+                    </div> <!-- testa_links -->
                 </div> <!-- testa_body_wrap -->
             </div> <!-- testa -->
         </div> <!-- testa_wrapper -->
@@ -290,9 +295,19 @@ Template Name: Home Page
                 </div> <!--learn_header -->
                 <div class="contact_container clearfix">
                     <div class="contact_info_form">
-                        <p class="contact_title">Aaron Kahn, <span class="cfi">CFI</span></p>
-                        <p class="contact_phone">p. 415.683.3628</p>
-                        <p class="contact_email contact_email_space">e. aaron@sfbayflyer.com</p>
+                        <div class="contact_name_box clearfix">
+                            <p class="contact_title">Aaron Kahn, <span class="cfi">CFI</span></p>
+                            <p class="contact_phone">p. 415.683.3628</p>
+                            <p class="contact_email contact_email_space">e. aaron@sfbayflyer.com</p>
+                        </div>
+                        <div class="contact_social_box clearfix">
+                            <ul>
+                                <li class="s-facebook"><a href="https://www.facebook.com/pages/SF-Bay-Flyer/163545050374325"><span class="icon-facebook"></span></a></li>
+                                <li class="s-youtube"><a href="http://www.youtube.com/user/aaronwk28/videos"><span class="icon-youtube"></span></a></li>
+                                <li class="s-instagram"><a href="http://instagram.com/sfbayflyer"><span class="icon-instagram"></span></a></li>
+                                <li class="s-google"><a href="https://plus.google.com/111897635476482236330/about"><span class="icon-googleplus"></span></a></li>
+                            </ul>
+                        </div> <!-- contact_social_box -->
                         <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
                         <?php the_content(); ?>
@@ -301,13 +316,13 @@ Template Name: Home Page
 
                     </div>    
                     <div class="contact_map">
-                        <p class="contact_airport_title">Advanced Flyers</p>
+                        <p class="contact_airport_title">SF Bay Flyer</p>
                         <p class="contact_airport_address">1901 Embarcadero Road, Suite 106</p>
                         <p class="contact_airport_address">Palo Alto, CA 94303</p>
-                        <p class="contact_airport_address">p. 650.494.1646</p>
+                        <p class="contact_airport_address">p. (415) 683-3628</p>
                         <p class="contact_airtport_undertitle">click on map for full information and directions</p>
                         
-                        <a href="http://goo.gl/maps/IeuqL" class="google_map" target="_blank">
+                        <a href="https://goo.gl/maps/aV1I1" class="google_map" target="_blank">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/space.png" />
                         </a>
                     </div>

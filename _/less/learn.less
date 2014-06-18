@@ -25,10 +25,6 @@
 	display: block;
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
-
-	@media @mobile {
-		border-bottom: none;
-	}
 }
 
 .learn_header h1 {
@@ -62,12 +58,17 @@ h1 span {
 	padding: 0;
 }
 
+.sliader-wrapper {
+	@media @mobile {
+		border-top: 1p solid black;
+	}
+}
+
 .learn_1_header {
 	text-align: center; 
     font-family: "Source Sans Pro", sans-serif;
     color: white;
     font-weight: 400;
-	margin-bottom: 60px !important;
 	font-size: 55px;
 	line-height: 60px;
 	text-shadow: 1px 1px 1px black;
@@ -89,6 +90,83 @@ h1 span {
 	}
 
 	@media @tablet-1 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	@media @mobile {
+		font-size: 36px;
+		line-height: 40px;
+	}
+}
+
+.learn_2_header {
+	text-align: center; 
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 400;
+	font-size: 55px;
+	line-height: 60px;
+	text-shadow: 1px 1px 1px black;
+
+	@media @desktop-2 {
+		font-size: 50px;
+		line-height: 55px;
+	}
+
+	@media @desktop-1 {
+		font-size: 45px;
+		line-height: 52px;
+		font-weight: 400;
+	}
+
+	@media @tablet-2 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	@media @tablet-1 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	@media @mobile {
+		font-size: 36px;
+		line-height: 40px;
+	}
+}
+
+.learn_3_header {
+	text-align: center; 
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 400;
+	font-size: 55px;
+	line-height: 60px;
+	text-shadow: 1px 1px 1px black;
+
+	@media @desktop-2 {
+		font-size: 50px;
+		line-height: 55px;
+	}
+
+	@media @desktop-1 {
+		font-size: 45px;
+		line-height: 52px;
+		font-weight: 400;
+	}
+
+	@media @tablet-2 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	@media @tablet-1 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	@media @mobile {
 		font-size: 36px;
 		line-height: 40px;
 	}
@@ -318,13 +396,151 @@ cursor: pointer;
 }
 
 .slider-wrapper {
-	display: block;
-
-	@media @mobile {
-		display: none;
-	}	
+	display: block;	
 }
 
 .no-wrap {
 	white-space: nowrap;
+}
+
+.fly_info_wrap {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1150px;
+	background: #eee url(img/right_diagonal_light.png) repeat;
+	display: block;
+	overflow: hidden;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+
+	@media @desktop {
+		border-right: none;
+		border-left: none;
+	}
+
+	@media @tablet {
+		border-right: none;
+		border-left: none;
+	}
+
+	@media @mobile {
+		border-right: none;
+		border-left: none;
+	}
+}
+
+.fly_info_text_big_wrap {
+	@media @tablet-2 {
+		float: left;
+		display: block;
+		overflow: hidden;
+		width: 52%;
+	}
+
+	@media @tablet-1 {
+		float: left;
+		display: block;
+		overflow: hidden;
+		width: 50%;
+	}
+
+	@media @mobile {
+		float: left;
+		display: block;
+		overflow: hidden;
+		width: 100%;
+	}
+}
+
+.fly_text_1_wrap {
+	float: left;
+	width: 30%;
+	padding: 3% 0 3% 3%;
+
+	@media @tablet {
+		width: 100%;
+		float: none;
+		padding: 3% 3% 0 3%;
+	}
+
+	@media @mobile {
+		width: 94%;
+		float: none;
+		margin: 0 3%;
+		padding: 0;
+	}
+}
+
+.fly_text_2_wrap {
+	float: left;
+	width: 30%;
+	padding: 3% 0 3% 3%;
+
+	@media @tablet {
+		width: 100%;
+		float: none;
+		padding: 0 3% 3% 3%;
+	}
+
+	@media @mobile {
+		width: 94%;
+		float: none;
+		margin: 0 3%;
+		padding: 0;
+	}
+}
+
+.fly_text_3_wrap {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+	border-radius: 100px;
+
+	@media @tablet {
+		float: right;
+		width: 270px;
+	}
+
+	@media @mobile {
+		width: 100%;
+		margin: 0 auto 5%;
+	}
+}
+
+a#intro_circle {
+	width: 236px;
+	height: 236px;
+	margin: 10px auto;
+	display: block;
+}
+
+a#intro_circle:hover {
+	width: 238px;
+	height: 238px;
+}
+
+a.here:hover {
+	color: #f86909;
+}
+
+.fly_text_3_1 {
+	text-align: center; 
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
+    font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0;
+}
+
+.fly_text_3_2 {
+	text-align: center; 
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
+    font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
 }

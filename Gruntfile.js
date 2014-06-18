@@ -13,6 +13,7 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
+          '_/js/transitions.js',
           '_/js/modernizer.js',
           '_/js/picturefill.js',
           '_/js/instafeed.js',

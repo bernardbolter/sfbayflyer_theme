@@ -53,19 +53,20 @@
             <div class="fly_info_wrap">
                 <div class="fly_info_text_big_wrap">
                     <div class="fly_text_1_wrap">
-                        <p class="learn_mobile_answer">LEARNING TO FLY IS BOTH. AND, ONCE YOU GET YOUR LICENSE, YOU'LL BE ABLE TO ACCESS PERSONAL TRAVEL THAT IS ONLY AVAILABLE TO FELLOW FLYERS.</p>
-                        <p class="learn_mobile_question">How do I get started?</p>
-                        <p class="learn_mobile_answer">You’ll take an introductory flight lesson with <a href="#about" class="me_link">me</a>. The lesson will last about an hour. Bring a friend, too!</p>
+                        <p class="learn_text_header">The First Step</p>
+                        <p class="learn_text_body">- Go up for a short flight with me in a Cessna</p>
+                        <p class="learn_text_body">- Experience cockpit enviorment and sensations</p>
                     </div> <!-- .fly_text_1_wrap -->
                     <div class="fly_text_2_wrap">
-                        <p class="learn_mobile_question">What will happen on my lesson?</p>
-                    <p class="learn_mobile_answer">You’ll fly in a trainer airplane with you sitting at the controls in the left front seat. I will sit right next to you and have a set of controls also. You’ll have an opportunity to control the airplane after a short in-flight orientation.</p>
+                        <p class="learn_text_header">Take an Introductory Lesson</p>
+                        <p class="learn_text_body">- 30 or 60 minutes</p>
+                        <p class="learn_text_body">- Control the plane in-flight under my guidence</p>
+                        <p class="learn_text_body">- A friend can join you on the flight</p>
                     </div> <!-- .fly_text_2_wrap -->
                 </div>
                 <div class="fly_text_3_wrap">
                     <a id="intro_circle" href=" #contact"><img src="<?php echo get_template_directory_uri(); ?>/img/flight_lesson.png"/></a>
-                    <p class="fly_text_3_1">Download workbook PDF <a class="here" href="#">(here)</a></p>
-                    <p class="fly_text_3_2">for more detailed information</p>
+                    <a id="pdf_link" href="#" alt="PDF Guide for New Pilots"><img src="<?php bloginfo( 'template_url' ); ?>/img/pdf.png" alt="PDF icon"> Guide for New Pilots</a>
                 </div> <!-- .fly_text_3_wrap -->
             </div> <!-- .fly_info_wrap -->
     </div> <!-- #learn_to_fly -->

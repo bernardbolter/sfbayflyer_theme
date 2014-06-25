@@ -2,7 +2,7 @@
     <header class="container clearfix">
         <div class="home_link">
             <ul><li>
-            <a class="logo"  href="#home">SF BAY FLYER</a>
+            <a class="logo"  href="#home"><h1>San Francisco Bay Flyer</h1></a>
             </ul></li>
         </div>
             <nav id="#nav" class="single-page-nav" role="navigation">

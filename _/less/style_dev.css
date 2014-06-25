@@ -911,7 +911,7 @@ legend span {
   position: fixed;
   z-index: 2;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .header-wrapper {
     position: absolute;
     height: 100px;
@@ -924,7 +924,7 @@ legend span {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .header-wrapper header.container {
     width: 100%;
     background: transparent url(img/left_diagonal.png) repeat;
@@ -956,7 +956,7 @@ a.logo {
     border-bottom: 1px solid black;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   a.logo {
     display: inline-block;
     width: 70%;
@@ -988,7 +988,7 @@ a.logo {
     float: right;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .navlist {
     display: none;
     width: 100%;
@@ -1007,7 +1007,7 @@ a.logo {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .navlist li {
     display: block;
     width: 100%;
@@ -1035,7 +1035,7 @@ a.logo {
     margin-left: 1px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .navlist li a {
     width: 100%;
     font-size: 20px;
@@ -1075,7 +1075,7 @@ a.logo {
 #menu-icon {
   display: none;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #menu-icon {
     background: transparent url(img/menu-item.png) no-repeat 50% 50px;
     width: 30%;
@@ -1094,7 +1094,7 @@ a.logo {
   padding-top: 61px;
   background: #333333 url(img/left_diagonal.png) repeat;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .home-wrapper {
     padding-top: 101px;
   }
@@ -1103,7 +1103,7 @@ a.logo {
   padding-top: 0px;
   background: #333333 url(img/left_diagonal.png) repeat;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .home-wrapper-2 {
     padding-top: 0px;
   }
@@ -1133,7 +1133,7 @@ a.logo {
   padding-bottom: 60px;
   display: block;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .anchor {
     margin-top: 0;
     padding-bottom: 0;
@@ -1176,7 +1176,7 @@ a.logo {
     font-size: 45px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #home h2 {
     padding-bottom: 10px;
     font-weight: 400;
@@ -1213,7 +1213,7 @@ a.logo {
     top: 90px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .home_text_box {
     top: 30px;
   }
@@ -1233,7 +1233,7 @@ a.logo {
     width: 77%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .home_box_bottom {
     width: 80%;
   }
@@ -1271,7 +1271,7 @@ a.logo {
     line-height: 21px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #home h3 {
     font-size: 22px;
     line-height: 25px;
@@ -1295,7 +1295,7 @@ a.logo {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #home h4 {
     font-size: 20px;
     font-weight: 200;
@@ -1317,7 +1317,7 @@ a.logo {
     font-size: 12px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .cfi {
     font-size: 12px;
     font-weight: 400;
@@ -1374,7 +1374,7 @@ h1 span {
   margin: 0 auto;
   padding: 0;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .sliader-wrapper {
     border-top: 1p solid black;
   }
@@ -1413,7 +1413,7 @@ h1 span {
     line-height: 40px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .learn_1_header {
     font-size: 36px;
     line-height: 40px;
@@ -1453,7 +1453,7 @@ h1 span {
     line-height: 40px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .learn_2_header {
     font-size: 36px;
     line-height: 40px;
@@ -1493,7 +1493,7 @@ h1 span {
     line-height: 40px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .learn_3_header {
     font-size: 36px;
     line-height: 40px;
@@ -1714,7 +1714,7 @@ h1 span {
 #slider_mobile {
   display: none;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #slider_mobile {
     display: block;
     background: #eeeeee url(img/right_diagonal_light.png) repeat;
@@ -1754,7 +1754,7 @@ h1 span {
     border-left: none;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .fly_info_wrap {
     border-right: none;
     border-left: none;
@@ -1774,14 +1774,16 @@ h1 span {
     display: block;
     overflow: hidden;
     width: 50%;
+    padding-top: 10px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .fly_info_text_big_wrap {
     float: left;
     display: block;
     overflow: hidden;
     width: 100%;
+    padding-top: 20px;
   }
 }
 .fly_text_1_wrap {
@@ -1796,7 +1798,7 @@ h1 span {
     padding: 3% 3% 0 3%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .fly_text_1_wrap {
     width: 94%;
     float: none;
@@ -1816,7 +1818,7 @@ h1 span {
     padding: 0 3% 3% 3%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .fly_text_2_wrap {
     width: 94%;
     float: none;
@@ -1836,21 +1838,51 @@ h1 span {
     width: 270px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .fly_text_3_wrap {
     width: 100%;
     margin: 0 auto 5%;
   }
 }
 a#intro_circle {
-  width: 236px;
-  height: 236px;
+  width: 184px;
+  height: 187px;
   margin: 10px auto;
   display: block;
 }
-a#intro_circle:hover {
-  width: 238px;
-  height: 238px;
+.learn_text_header {
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 200;
+  border-bottom: 1px solid #666;
+  padding-bottom: 20px;
+}
+.learn_text_body {
+  display: block;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  color: #666;
+  margin: 15px 0;
+  font-weight: 700;
+  color: #ce7133;
+}
+a#pdf_link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+}
+a#pdf_link:hover {
+  text-decoration: underline;
+}
+a#pdf_link img {
+  display: inline-block;
+  width: 40px;
+  height: 47px;
 }
 a.here:hover {
   color: #f86909;
@@ -1917,7 +1949,7 @@ a.here:hover {
     display: block;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .advanced_box_1 {
     width: 100%;
     display: block;
@@ -1951,7 +1983,7 @@ a.here:hover {
     left: 0;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .advanced_box_2 {
     width: 100%;
     display: block;
@@ -1992,7 +2024,7 @@ a.here:hover {
     line-height: 18px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .advanced_text {
     font-size: 14px;
     line-height: 18px;
@@ -2070,7 +2102,7 @@ a.here:hover {
     width: 66%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .about_box {
     position: relative;
     display: block;
@@ -2215,7 +2247,7 @@ a.here:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .testa_wrap {
     width: 100%;
   }
@@ -2246,9 +2278,18 @@ a.here:hover {
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
   .testa_box {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .testa_box {
     width: 96%;
     height: 400px;
   }
+}
+.doug_text {
+  font-size: 13px !important;
+  line-height: 18px !important;
 }
 .testa_head {
   float: left;
@@ -2344,7 +2385,7 @@ a.here:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .video-wrapper {
     width: 100%;
   }
@@ -2372,7 +2413,7 @@ a.here:hover {
     height: 0;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .video_box {
     position: relative;
     padding-bottom: 56.25%;
@@ -2406,7 +2447,7 @@ a.here:hover {
     height: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .video_box iframe {
     position: absolute;
     top: 0;
@@ -2467,7 +2508,7 @@ a.here:hover {
     padding: 0;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .contact_info_form {
     width: 90%;
     margin: 0 5%;
@@ -2487,7 +2528,7 @@ a.here:hover {
     padding: 0;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .contact_map {
     width: 90%;
     margin: 0 5%;
@@ -2517,7 +2558,7 @@ a.here:hover {
     margin-top: 20px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .contact_title {
     margin-top: 20px;
   }
@@ -2624,7 +2665,7 @@ a.here:hover {
   border-bottom: 1px solid black;
   padding-top: 60px;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground-wrapper-2 {
     padding-top: 100px;
   }
@@ -2682,7 +2723,7 @@ a.here:hover {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_top {
     margin-top: 10px;
     font-size: 16px;
@@ -2707,7 +2748,7 @@ a.here:hover {
     font-size: 50px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_title {
     margin-top: 10px;
     font-size: 40px;
@@ -2727,7 +2768,7 @@ a.here:hover {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_airport {
     margin-top: 10px;
     font-size: 16px;
@@ -2747,7 +2788,7 @@ a.here:hover {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_10week {
     margin-top: 10px;
     font-size: 30px;
@@ -2762,7 +2803,7 @@ a.here:hover {
   float: left;
   background: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_wednesday_block {
     width: 95%;
   }
@@ -2775,7 +2816,7 @@ a.here:hover {
   float: left;
   background: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_thursday_block {
     width: 95%;
   }
@@ -2816,7 +2857,7 @@ a.here:hover {
     font-size: 30px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_times {
     margin-top: 10px;
     font-size: 24px;
@@ -2834,7 +2875,7 @@ a.here:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instructor_box {
     width: 100%;
   }
@@ -2853,7 +2894,7 @@ a.here:hover {
     margin: 2%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instructor_left {
     width: 95%;
     margin: 1% auto;
@@ -2871,7 +2912,7 @@ a.here:hover {
     width: 45%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instructor_right {
     width: 95%;
     margin: 0 auto 2%;
@@ -2886,7 +2927,7 @@ a.here:hover {
   font-style: italic;
   text-decoration: underline;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instruct_top {
     text-align: center;
     margin: 10px 0;
@@ -2898,7 +2939,7 @@ a.here:hover {
   font-size: 40px;
   margin: 15px 0 20px 2%;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instruct_name {
     text-align: center;
     margin: 20px 0 40px;
@@ -2911,7 +2952,7 @@ a.here:hover {
   font-size: 20px;
   margin: 3px 0 3px 2%;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_instruct_under {
     text-align: right;
     margin: 5px 0;
@@ -2959,7 +3000,7 @@ a.here:hover {
   float: left;
   margin: 30px 5% 0;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_dates_left {
     width: 95%;
     margin: 0 2.5%;
@@ -2995,7 +3036,7 @@ a.here:hover {
     width: 30%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_dates_right {
     width: 100%;
     margin: 20px auto;
@@ -3009,7 +3050,7 @@ a.here:hover {
   font-weight: 700;
   font-size: 30px;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_dates_right_title {
     margin-top: 0;
   }
@@ -3021,7 +3062,7 @@ a.here:hover {
   font-weight: 400;
   font-size: 20px;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_dates_right_under {
     margin-top: 0;
   }
@@ -3034,7 +3075,7 @@ a.here:hover {
   border-bottom: 1px solid black;
   margin: 15px auto;
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_dates_right_diamonds {
     margin-top: 0;
   }
@@ -3054,7 +3095,7 @@ a.here:hover {
     margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_20 {
     margin-top: 0;
   }
@@ -3074,7 +3115,7 @@ a.here:hover {
     line-height: 10px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_20_line {
     font-size: 20px;
     line-height: 24px;
@@ -3101,7 +3142,7 @@ a.here:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_sign_up_box {
     width: 100%;
     margin: 10px auto;
@@ -3124,7 +3165,7 @@ a.here:hover {
     width: 20%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_sign_up_left {
     width: 100%;
     margin: 5px auto;
@@ -3143,7 +3184,7 @@ a.here:hover {
     padding: 20px 0 0;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_sign_up_title {
     padding: 15px 0 0;
   }
@@ -3164,7 +3205,7 @@ a.here:hover {
     width: 75%;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .ground_sign_up_right {
     width: 100%;
   }

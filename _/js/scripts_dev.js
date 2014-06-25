@@ -1352,6 +1352,7 @@ $(window).load(function() {
 jQuery(".advanced_title_top").fitText(1.5);
 });
 
+/*
 $(document).ready(function() {
 	var userFeed = new Instafeed({
 	        get: 'user',
@@ -1370,6 +1371,7 @@ $(window).load(function() {
 				$this.html($this.text().replace(/(?:\s|^)(?:#(?!(?:\d+|\w+?_|_\w+?)(?:\s|$)))(\w+)(?=\s|$)/g, '<span style="color: #7a7065;">$&</span>'));
 	});
 });
+*/
 
 
 

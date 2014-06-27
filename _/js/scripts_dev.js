@@ -1341,11 +1341,18 @@ $('.single-page-nav').singlePageNav({
 	});
 $('.home_link').singlePageNav({
    offset: $('.single-page-nav').outerHeight()
-	});        
+	});
+$('.fly_text_3_wrap').singlePageNav({
+   offset: $('.single-page-nav').outerHeight()
+	});       
 });
 
 $(window).load(function() {
-    $('#slider').nivoSlider();
+    $('#slider').nivoSlider({
+    	pauseTime: 10000,
+    	animSpeed: 1000,
+    	pauseOnHover: false
+    });
 });
 
 $(window).load(function() {

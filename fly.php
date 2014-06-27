@@ -55,12 +55,12 @@
                     <div class="fly_text_1_wrap">
                         <p class="learn_text_header">The First Step</p>
                         <p class="learn_text_body">- Go up for a short flight with me in a Cessna</p>
-                        <p class="learn_text_body">- Experience cockpit enviorment and sensations</p>
+                        <p class="learn_text_body">- Experience cockpit environment and sensations</p>
                     </div> <!-- .fly_text_1_wrap -->
                     <div class="fly_text_2_wrap">
-                        <p class="learn_text_header">Take an Introductory Lesson</p>
+                        <p class="learn_text_header">Take an Introductory Flight Lesson</p>
                         <p class="learn_text_body">- 30 or 60 minutes</p>
-                        <p class="learn_text_body">- Control the plane in-flight under my guidence</p>
+                        <p class="learn_text_body">- Control the plane in-flight under my guidance</p>
                         <p class="learn_text_body">- A friend can join you on the flight</p>
                     </div> <!-- .fly_text_2_wrap -->
                 </div>

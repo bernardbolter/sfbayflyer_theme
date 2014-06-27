@@ -19,14 +19,14 @@
                         </noscript>
                      </span>
 
-                     <span data-picture data-alt="Flying over a Lake" data-title="#learn_2">
-                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/cessna_lake_small.jpg"></span>
-                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/cessna_lake_medium.jpg" data-media="(min-width: 601px)"></span>
-                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/cessna_lake_large.jpg" data-media="(min-width: 769px)"></span>
+                     <span data-picture data-alt="Plane taking off" data-title="#learn_2">
+                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/plane_takeoff_small.jpg"></span>
+                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/plane_takeoff_medium.jpg" data-media="(min-width: 601px)"></span>
+                        <span data-src="<?php echo get_template_directory_uri(); ?>/img/plane_takeoff_large.jpg" data-media="(min-width: 769px)"></span>
 
                         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
                         <noscript>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/cesna_lake_small.jpg" alt="Flying over a Lake" title="#learn_2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/plane_takeoff_small.jpg" alt="Plane taking off" title="#learn_2">
                         </noscript>
                      </span>
 
@@ -45,7 +45,7 @@
                     <p class="learn_1_header">Looking for excitement and a challenge?</p>
                 </div>
                  <div id="learn_2" class="nivo-html-caption">
-                    <p class="learn_2_header">I have over 2,000 hours of flight instruction time logged.</p>
+                    <p class="learn_2_header">You'll love where learning to fly will take you.</p>
                  <div id="learn_3" class="nivo-html-caption">
                     <p class="learn_3_header">If you can drive a car, you can learn how to fly.</p>                      
                 </div>

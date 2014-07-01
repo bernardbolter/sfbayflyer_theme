@@ -26,7 +26,10 @@
                 <p class="about_text">I got my first commercial piloting job for Ameriflight in Oakland, hauling cancelled checks and UPS cargo in single-pilot operations. There I flew the Piper Lance, the twin-turbocharged Piper Chieftain, and the Beech 99 twin-turboprop. I then got hired at US Airways Express/Colgan Air, where I flew the Beech 1900 nineteen-seater for 18 months as a first officer then 6 months as a captain, and was based on the East coast.</p>
                 <p class="about_text">I left Colgan and moved back to San Francisco, where I instructed again. I also spent some time as a jet first officer in the Cessna Citation and Hawker. I also became active in the Civil Air Patrol flying program, where I became a Search and Rescue Mission Pilot and a Check Pilot Examiner.</p>
                 <p class="about_text">In 2005, I formed my own ferry pilot company, and since have flown over 50,000 miles of ferrying airplanes all over the US and Canada, twice to Guatemala, and once over the North Atlantic to Denmark. I also spent the summer of 2009 flying charter out of Juneau, Alaska. I’ve been at Advanced Flyers since February 2011.</p>
-                <p class="about_text">My endorsements include Private, Instrument, Multi-Engine, Commercial, Initial CFI (Flight Instructor), CFI-Instrument, and CFI-Multi-Engine ratings. I’ve also trained, endorsed and supervised 11 first-solo flights.</p>
+                <p class="about_text about_text_last">My endorsements include Private, Instrument, Multi-Engine, Commercial, Initial CFI (Flight Instructor), CFI-Instrument, and CFI-Multi-Engine ratings. I’ve also trained, endorsed and supervised 11 first-solo flights.</p>
+              
+                <a href="http://instagram.com/sfbayflyer" target="_blank"  class="about_photo_link"><p>SF Bay Flyer on Instagram</p><img src="<?php echo get_template_directory_uri(); ?>/img/insta_icon.png" alt="Instagram Icon" class="about_photo_photo"></a>
+                <a href="https://www.flickr.com/photos/sfbayflyer" target="_blank"  class="about_photo_link"><p>SF Bay Flyer on Flickr</p><img src="<?php echo get_template_directory_uri(); ?>/img/flickr_icon.png" alt="Flickr Icon" class="about_photo_photo"></a>
             </div>
         </div>
 
